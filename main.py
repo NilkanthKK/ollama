@@ -1,6 +1,4 @@
 # python core code 
-
-
 import ollama
 import re
 import json
@@ -43,3 +41,10 @@ else:
     print("JSON not found in response")
 
 print(f"\nResponse Time: {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)")
+
+
+# Note :
+# ollama model download
+
+# ollama run qwen2.5vl:7b
+# ollama run qwen2.5vl:32b
